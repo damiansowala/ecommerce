@@ -1,0 +1,11 @@
+@use '~admin-lte/scss/_variables';
+@use '~admin-lte/scss/_mixins';
+
+@use '~bootstrap/scss/bootstrap';
+
+//parts
+@use '~admin-lte/scss/parts/core';
+@use '~admin-lte/scss/parts/components';
+@use '~admin-lte/scss/parts/extra-components';
+@use '~admin-lte/scss/parts/pages';
+@use '~admin-lte/scss/parts/miscellaneous';

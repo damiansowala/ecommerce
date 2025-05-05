@@ -1,0 +1,105 @@
+// Variables
+@use '_variables';
+
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+tr {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.bg-custome {
+
+    background-color: #4C6EF8 !important;
+    color: #fff !important;
+}
+
+.page-title {
+    height: 300px;
+    background-color: #4C6EF8;
+    padding: 50px;
+    width: 100%;
+    color: #fff !important;
+
+    li,
+    a {
+        color: #fff !important;
+    }
+}
+
+.page-content {
+
+    margin-top: -250px;
+    margin-bottom: 0px;
+    padding: 100px 50px 0px 50px;
+}
+
+.page-button {
+    padding-bottom: 100px;
+}
+
+
+.card-custome {
+
+    border-top: 4px solid #4C6EF8;
+
+}
+
+
+.card-big-custome {
+
+    border-top: 4px solid #4C6EF8;
+
+    color: white;
+
+}
+
+.table {
+    a {
+        text-decoration: none;
+    }
+}
+
+.table-hover-custome {
+
+
+    .tw {
+        width: 150px;
+    }
+
+    tbody {
+        tr {
+            td {
+                vertical-align: middle;
+            }
+
+            &:hover {
+                td {
+                    background-color: #e2e2e2;
+
+
+
+
+
+                }
+            }
+        }
+    }
+}
+
+.login-page {
+    background-image: url(../img/login.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sidebar-expand-lg.layout-fixed .app-sidebar,
+.app-sidebar {
+
+    min-height: inherit !important;
+    max-height: inherit !important;
+}
